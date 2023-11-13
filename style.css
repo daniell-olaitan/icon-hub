@@ -94,6 +94,7 @@ button {
 
 .top {
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .top .text-h {
@@ -128,4 +129,23 @@ button {
 .desc {
     color: #1f2937;
     font-size: 18px;
+}
+
+.mid {
+    padding: 100px 200px;
+    color: #1f2937;
+    background-color: #e5e7eb;
+}
+
+.mid .text-h {
+    margin-bottom: 18px;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 30px;
+    font-weight: 900;
 }
