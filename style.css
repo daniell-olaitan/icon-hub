@@ -58,7 +58,7 @@ button {
 }
 
 .btn-bottom {
-    border: 10px solid white;
+    border: 3px solid white;
 }
 
 .upper-header {
@@ -148,4 +148,26 @@ button {
     justify-content: flex-end;
     font-size: 30px;
     font-weight: 900;
+}
+
+.bottom {
+    padding: 100px 200px;
+}
+
+.bottom .content {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    color: #e5e7eb;
+}
+
+.bottom .text-h {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.footer {
+    text-align: center;
+    padding: 40px;
 }
